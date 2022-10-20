@@ -32,31 +32,40 @@ classdef Constants
 	%	F U N D A M E N T A L   C O N S T A N T S
 	%	========================================================================
 	properties (Constant)
-		%	Atomic length (a_0 = 4pi * eps_0 * h_bar^2 / (m_e * e^2) ~ 5.29e-11 m)
+		%	Atomic length 
+		%	(a_0 = 4pi * eps_0 * h_bar^2 / (m_e * e^2) ~ 5.29e-11 m)
 		BohrRadius = 5.29177210903e-11;
 		
-		%	Coulomb constant (k_e: 1/4*pi*eps_0 ~ 8.99e9 N m^2 / C^2)
+		%	Coulomb constant 
+		%	(k_e: 1/4*pi*eps_0 ~ 8.99e9 N m^2 / C^2)
 		Coulomb = 8.9875517923e9;
 		
-		%	Electron rest mass (m_e)
+		%	Electron rest mass 
+		%	(m_e)
 		ElectronMass = 9.1093837015e-31;
 		
-		%	Fine structure constant (alpha)
+		%	Fine structure constant 
+		%	(alpha)
 		FineStructure = 7.2973525693e-3;
 		
-		%	Newton's gravitational constant (G)
+		%	Newton's gravitational constant 
+		%	(G)
 		Gravitation = 6.67430e-11;
 		
-		%	Hartree energy (E_H = 4.36e-18 J)
+		%	Hartree energy 
+		%	(E_H = 4.36e-18 J)
 		HartreeEnergy = 4.3597447222071e-18;
 		
-		%	Permeability of free space (mu_0 = 4e-7*pi ~ 1.26e-6 m kg / s^2 / A^2)
+		%	Permeability of free space 
+		%	(mu_0 = 4e-7*pi ~ 1.26e-6 m kg / s^2 / A^2)
 		Permeability = 4e-7*pi * (1+55e-11);
 		
-		%	Permittivity of free space (eps_0 = 1/(4pi*k_e) ~ 8.85e-12 s^4 A^2 / m^3 / kg^1)
+		%	Permittivity of free space
+		%	(eps_0 = 1/(4pi*k_e) ~ 8.85e-12 s^4 A^2 / m^3 / kg^1)
 		Permittivity = 8.8541878128e-12;
 		
-		%	Rydberg (R_inf = alpha^2 * m_e * c / 2h)
+		%	Rydberg 
+		%	(R_inf = alpha^2 * m_e * c / 2h)
 		Rydberg = 10973731.568160;
 	end
 	
@@ -79,10 +88,12 @@ classdef Constants
 	%	========================================================================
 	properties (Constant)
 		
-		%	Reduced Planck's constant (h_bar = h/2pi = 1.05e-34 J s)
+		%	Reduced Planck's constant 
+		%	(h_bar = h/2pi = 1.05e-34 J s)
 		ReducedPlanck = Constants.h/(2*pi);
 		
-		%	Universal gas constant (R = N_A * k_B ~ 8.314472 J / K / mol):
+		%	Universal gas constant 
+		%	(R = N_A * k_B ~ 8.314472 J / K / mol):
 		MolarGas = Constants.N_A * Constants.k_B;
 		
 	end
